@@ -19,6 +19,7 @@ platform :ios do
   desc "Run UI tests"
   lane :test do
     scan(
+      ssh -o ServerAliveInterval=15 -o ServerAliveCountMax=3 $*
       scheme: 'UITests',
       clean: true,
       device: 'iPhone 8'

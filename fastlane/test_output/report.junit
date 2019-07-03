@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites name='SimpleCalculatorUITests.xctest' tests='5' failures='0'>
   <testsuite name='SimpleCalculatorUITests.MinusTest' tests='2' failures='0'>
-    <testcase classname='SimpleCalculatorUITests.MinusTest' name='testMinus' time='14.773'/>
-    <testcase classname='SimpleCalculatorUITests.MinusTest' name='testMinusZero' time='10.091'/>
+    <testcase classname='SimpleCalculatorUITests.MinusTest' name='testMinus' time='15.751'/>
+    <testcase classname='SimpleCalculatorUITests.MinusTest' name='testMinusZero' time='10.930'/>
   </testsuite>
   <testsuite name='SimpleCalculatorUITests.MultiplyTest' tests='1' failures='0'>
-    <testcase classname='SimpleCalculatorUITests.MultiplyTest' name='testMultiply' time='14.117'/>
+    <testcase classname='SimpleCalculatorUITests.MultiplyTest' name='testMultiply' time='13.240'/>
   </testsuite>
   <testsuite name='SimpleCalculatorUITests.PlusTest' tests='1' failures='0'>
-    <testcase classname='SimpleCalculatorUITests.PlusTest' name='testPlus' time='12.396'/>
+    <testcase classname='SimpleCalculatorUITests.PlusTest' name='testPlus' time='13.214'/>
   </testsuite>
   <testsuite name='SimpleCalculatorUITests.SimpleCalculatorUITests' tests='1' failures='0'>
-    <testcase classname='SimpleCalculatorUITests.SimpleCalculatorUITests' name='testExample' time='8.617'/>
+    <testcase classname='SimpleCalculatorUITests.SimpleCalculatorUITests' name='testExample' time='9.765'/>
   </testsuite>
 </testsuites>
