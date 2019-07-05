@@ -21,7 +21,10 @@ platform :ios do
     scan(
       scheme: 'UITests',
       clean: true,
-      device: 'iPhone 8'
+      device: 'iPhone 8',
+      output_types: 'junit',
+      output_files: 'junit.xml',
+      output_directory: './fastlane/test_output/xctest'
     )
   end
 end
