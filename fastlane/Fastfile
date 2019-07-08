@@ -22,9 +22,10 @@ platform :ios do
       scheme: 'UITests',
       clean: true,
       device: 'iPhone 8',
-      output_types: 'junit',
-      output_files: 'junit.xml',
-      output_directory: './fastlane/test_output/xctest'
+      output_types: 'junit,html',
+      output_files: 'junit.xml, result.html',
+      output_directory: './fastlane/test_output/xctest',
+      open_report: true
     )
   end
 end
